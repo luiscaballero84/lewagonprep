@@ -1,0 +1,73 @@
+.card-icon-custom {
+    margin-bottom: 4.5rem;
+    
+}
+
+.card-icon-header-custom {
+    margin-bottom: 1.3rem;
+    color: #888787;
+}
+
+.card-icon-body-custom h2{
+    color: #292A2C;
+}
+
+.card-icon-body-custom p{
+    color: #5E5E5E;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* REVIEW CARD */ 
+.card-review-custom {
+    background-color: #F2F1F1;
+    border-radius: 2px;
+    overflow: hidden;
+    height: 100%;
+    
+   
+    
+}
+
+
+.card-review-header-custom img{
+    width: 100%; 
+}
+
+
+.card-review-body-custom {
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 20px;
+    
+   
+    
+}
+
+.card-review-body-custom img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50rem;
+    margin-bottom: 1rem;
+}
+
+.card-review-body-custom h5{
+    color: #292A2C;
+    
+}
+
+.card-review-body-custom h6{
+    color: #5E5E5E;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    
+}
+
+.card-review-body-custom p{
+    color: #292A2C;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    
+}

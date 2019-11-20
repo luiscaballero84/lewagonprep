@@ -1,0 +1,82 @@
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .btn-nav-lg-custom {
+        
+        background-color: #F9D348; 
+        color: black !important; 
+        padding: 0rem 0.5rem !important;
+        border-radius: 25px;
+        margin-left: 30px !important;
+        -webkit-transition: background-color 200ms linear;
+        -ms-transition: background-color 200ms linear;
+        transition: background-color 200ms linear;
+        text-transform: uppercase;
+    }
+
+    .btn-nav-lg-custom:hover {
+        background-color: white ;
+        -webkit-transition: background-color 200ms linear;
+        -ms-transition: background-color 200ms linear;
+        transition: background-color 200ms linear;
+        color:#F2F1F1 !important; 
+       
+    }
+
+    .btn-nav-lg-custom a {
+        color: black !important; 
+       
+    }
+    
+}
+
+/* Button Regular */
+.btn-custom {
+    background-color: #F9D348; 
+    color: black !important; 
+    padding: 1.5rem 1.8rem !important;
+    border-radius: 40px;
+    
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+    }
+
+.btn-custom:hover {
+    background-color: white ;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+    color:#292A2C !important;  
+}
+
+#banner a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+/* GHOST BUTTON */
+.btn-ghost-custom {
+    background-color: transparent; 
+    color: #292A2C !important; 
+    padding: 1rem 2rem !important;
+    display: inline;
+    border: 2px solid #292A2C; 
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+    }
+
+.btn-ghost-custom:hover {
+    background-color: #292A2C ;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+    color:#F2F1F1 !important;  
+}

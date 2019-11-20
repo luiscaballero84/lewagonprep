@@ -1,0 +1,71 @@
+#banner {
+    height: 100vh;
+    background-image: url(../../img/header-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.7);
+
+}
+
+.banner-container {
+    margin-top: -50px;
+}
+/*
+.relative {
+    position: relative !important;
+}
+
+.banner-container {
+    position: absolute;
+    top: 30vh;
+}
+*/
+
+#banner p {
+    margin-bottom: 3.5rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: lighter;
+}
+
+/* BANNER GET APP */
+#getapp {
+    background-color: #F9D348;
+    cursor:pointer;
+    transition: background-color .5s;
+}
+
+#getapp:hover {
+    background-color: #D6AD29;
+    cursor:pointer;
+    transition: background-color .5s;
+}
+
+#getapp h1 {
+    color: #000000;
+    font-weight: 500;
+    font-size: 2.5rem;
+    
+    margin-bottom: 0rem;
+    margin-top: 1.4rem;
+}
+
+#getapp p {
+    color: #000000;
+    font-weight: 300;
+}
+
+
+.getapp-banner-container {
+    text-align: center;
+}
+
+.left {
+    border-bottom: 1px solid #000000; 
+    padding-bottom: 1rem;
+}
+
+
+

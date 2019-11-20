@@ -1,0 +1,61 @@
+.navbar {
+    background: black; 
+    border-bottom: 1px solid #292A2C;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
+
+.navbar a {
+    color: #F2F1F1;
+    padding: 1rem 0rem; 
+    }
+
+.navbar a:hover {
+    color: #F9D348;
+    padding: 1rem 0rem; 
+    }
+
+#navbarNav {
+    /* background: green; */
+    margin: 0px;
+    text-align: center;
+    
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar {
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0.5rem 3rem;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.15em
+    } 
+
+    #navbarNav {
+        padding-top: 0px;
+      }       
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
+  
+.navbar-toggler {
+    border: none !important;
+    padding-right: 0px;
+  } 
+
+.navbar-toggler:focus, .navbar-toggler:active {
+outline: none;
+}
+
+.navbar a.selected {
+        color: red;
+        background: #efefef;
+      }
+
+
