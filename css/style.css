@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500&display=swap');
+@import url("components/navbar.css");
+@import url("components/buttons.css");
+@import url("components/basics.css");
+@import url("components/banners.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+
+
+
+
+/* COLORS
+Primary #F9D348
+Black #000000
+White #FFFFFF
+TEXT
+Dark #292A2C
+Medium #5E5E5E
+BG
+Dark #888787
+Light #F2F1F1
+
+*/
+
+body {
+  background: #333;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  position: relative; 
+}
+
+#features {
+  background: #F2F1F1;
+  padding-top: 7rem;
+  padding-bottom: 4.6rem;
+}
+
+#reviews {
+  background: #fff;
+    padding: 7rem 0rem;
+}
+
+#getapp {
+  background-color: #F9D348;
+  padding-top: 6rem;
+  padding-bottom: 5.1rem;
+  
+}
+
+
